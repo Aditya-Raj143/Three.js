@@ -16,7 +16,7 @@ const count = 100;
 const positionsArray = new Float32Array(count*3*3)
 
 for(let i=0; i< count*3*3; i++) {
-    positionsArray[i] = (Math.random() - 0.5)*2
+    positionsArray[i] = (Math.random() - 0.5) * 2
 }
 
 const positionAttribute = new THREE.BufferAttribute(positionsArray, 3)
